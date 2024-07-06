@@ -49,7 +49,7 @@ const Hero = () => {
                     delay: 0.2,
                     repeatDelay: 0.1,
                 }}
-                className="mt-[5rem] flex flex-wrap justify-center justify-items-center border-black border p-2 rounded-3xl">
+                className="mt-[4rem] flex flex-wrap justify-center justify-items-center border-black border p-2 rounded-3xl">
                 
                 <BsArrowDown/>
             
