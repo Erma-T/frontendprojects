@@ -24,7 +24,7 @@ const Hero = () => {
       >
 
             <p className="text-[8rem]  font-bold">
-                <span className="text-transparent bg-clip-text bg-gradient-to-bl from-neutral-300 via-neutral-600 to-black "> 
+                <span className="text-transparent bg-clip-text bg-gradient-to-br from-black via-neutral-700 to-neutral-500 "> 
                     Welcome
                 </span> 
                 👋
