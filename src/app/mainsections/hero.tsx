@@ -10,11 +10,11 @@ const Hero = () => {
       <motion.h1
         initial={{
           opacity: 0,
-          y: 20,
+          y: 15,
         }}
         animate={{
           opacity: 1,
-          y: [20, -5, 0],
+          y: [15, -5, 0],
         }}
         transition={{
           duration: 0.5,
@@ -30,8 +30,8 @@ const Hero = () => {
                 👋
             </p>
             
-            <span className="text-2xl font-medium">
-                This is a place to practice front end concepts. You can find front end projects with different levels which created by{" "}
+            <span className="text-2xl font-bold">
+                This is a place to practice front end concepts. You can find front end projects with different levels which are created by{" "}
                 <Highlight className="text-black dark:text-white">
                 Ermiyas Tilahun
                 </Highlight>
@@ -49,7 +49,7 @@ const Hero = () => {
                     delay: 0.2,
                     repeatDelay: 0.1,
                 }}
-                className="mt-[4rem] flex flex-wrap justify-center justify-items-center border-black border p-2 rounded-3xl">
+                className="mt-[2rem] mb-[3rem] flex flex-wrap justify-center justify-items-center border-black border p-2 rounded-3xl">
                 
                 <BsArrowDown/>
             
