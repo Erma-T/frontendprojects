@@ -10,3 +10,14 @@
     transform: scale(1.03);
   }
 
+  .icons {
+    gap: 0.5em;
+  }
+  .icons svg {
+    height: 1.2em;
+    width: auto;
+    transition-property: opacity, transform;
+    transition-duration: calc(var(--transition-duration) / 2);
+    transition-delay: 0s;
+  }
+
