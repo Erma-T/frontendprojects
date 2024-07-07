@@ -1,3 +1,5 @@
+"use client"
+
 import { cn } from "@/lib/utils";
 import React from "react";
 import { motion } from "framer-motion";
@@ -66,7 +68,7 @@ export const BackgroundGradient = ({
         )}
       />
 
-      <div className={cn("relative z-10", className)}>{children}</div>
+      <div className={cn("relative w-[21rem] z-10", className)}>{children}</div>
     </div>
   );
 };

@@ -1,0 +1,12 @@
+.imgclass {
+    height: 100%;
+    width: 100%;
+    transition: transform 400ms;
+    background-position: center;
+    background-size: contain;
+  }
+
+  .imgclass:hover {
+    transform: scale(1.03);
+  }
+
