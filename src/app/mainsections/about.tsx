@@ -7,7 +7,7 @@ import { useMotionValue, motion, useMotionTemplate } from "framer-motion";
 const About = () =>{
     return(
         <div className="z-10">
-            <div id="aboutme" className="w-full mt-[-10rem]">
+            <div id="aboutme" className="w-full mt-[-8rem]">
                 
                 <motion.div 
                   initial={{

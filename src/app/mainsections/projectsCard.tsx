@@ -8,6 +8,8 @@ import { projectsData } from "@/lib/data";
 import { useState } from "react";
 import Link from "next/link";
 import { TextGen } from "./textgen";
+import PaginationComponent from "./paginationComponent";
+
 
 
 const ProjectsCard = ({
@@ -25,7 +27,6 @@ const ProjectsCard = ({
     let [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
 
     return(
-
 
         <div className="flex flex-wrap justify-center justify-items-center w-[60rem] pt-[10rem]">
             
@@ -102,11 +103,18 @@ const ProjectsCard = ({
 
 
                 ))}
+
+
+                
                 
 
 
 
             </div>
+            
+            <div className="flex justify-center justify-items-center w-full py-10">
+                    <PaginationComponent/>
+                </div>
 
 
 
