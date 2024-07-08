@@ -72,6 +72,7 @@ const ProjectsCard = ({
                             <div className="flex justify-end space-x-2 gap-2">
                                 <Link
                                     href={item?.livelink}
+                                    key={item?.livelink}
                                     className="flex px-[1rem] bg-[#010B0E] justify-center py-1 justify-items-center rounded-lg"  
                                     target="_blank"
                                     >
@@ -84,6 +85,7 @@ const ProjectsCard = ({
 
                                 <Link
                                     href={item?.repolink}
+                                    key={item?.repolink}
                                     className="flex px-[1rem] bg-[#010B0E] justify-center py-1 justify-items-center rounded-lg" 
                                     target="_blank">
                                     
