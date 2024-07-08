@@ -6,7 +6,7 @@ import { useMotionValue, motion, useMotionTemplate } from "framer-motion";
 
 const About = () =>{
     return(
-        <div >
+        <div className="z-10">
             <div id="aboutme" className="w-full mt-[-10rem]">
                 
                 <motion.div 

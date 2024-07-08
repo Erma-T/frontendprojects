@@ -7,7 +7,7 @@ import { TextGen } from "./textgen";
 
 const Projects = () => {
     return(
-        <div className="z-[-10] w-full mt-[-10rem]">
+        <div className=" w-full mt-[-10rem]">
 
             <div className=" w-full dark:bg-black bg-white  dark:bg-grid-white/[0.2] bg-grid-black/[0.2] relative flex items-center justify-center">
             {/* Radial gradient for the container to give a faded look */}
