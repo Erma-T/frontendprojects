@@ -2,15 +2,29 @@
 
 import React from "react";
 import { HoverEffect } from "@/components/ui/card-hover-effect";
+import { useMotionValue, motion, useMotionTemplate } from "framer-motion";
 
 const About = () =>{
     return(
         <div >
             <div id="aboutme" className="w-full mt-[-10rem]">
                 
-                <div className="max-w-5xl mx-auto px-8">
+                <motion.div 
+                  initial={{
+                    opacity: 0,
+                    y: 15,
+                  }}
+                  animate={{
+                    opacity: 1,
+                    y: [15, -5, 0],
+                  }}
+                  transition={{
+                    duration: 0.5,
+                    ease: [0.4, 0.0, 0.2, 1],
+                  }}
+                  className="max-w-5xl mx-auto px-8">
                     <HoverEffect items={projects} />
-                </div>
+                </motion.div>
 
             </div>
 

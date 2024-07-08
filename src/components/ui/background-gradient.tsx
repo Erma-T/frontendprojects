@@ -24,7 +24,7 @@ export const BackgroundGradient = ({
     },
   };
   return (
-    <div className={cn("relative p-[4px] group", containerClassName)}>
+    <div className={cn("flex justify-center justify-items-center relative max-w-[18.5rem] p-[4px] group", containerClassName)}>
       <motion.div
         variants={animate ? variants : undefined}
         initial={animate ? "initial" : undefined}
@@ -68,7 +68,7 @@ export const BackgroundGradient = ({
         )}
       />
 
-      <div className={cn("relative w-[21rem] z-10", className)}>{children}</div>
+      <div className={cn("relative w-[18rem] min-h-[26rem] z-10", className)}>{children}</div>
     </div>
   );
 };

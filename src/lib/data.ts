@@ -14,6 +14,14 @@ export const projectsData = [
         livelink: "https://basicfrontend.netlify.app/day%202%20todo%20app/",
         repolink: "https://github.com/Erma-T/30daysFrontEndBasic/tree/main/Day%202%20TODO%20App",
     },
+
+    {
+        imageurl: "/images/show2.webp",
+        title: "Quiz App",
+        description: "A basic quiz app that displays questions with their respective four options to select the correct one. If correct, will mark it in green if not, in red and show total score.",
+        livelink: "https://basicfrontend.netlify.app/day%202%20todo%20app/",
+        repolink: "https://github.com/Erma-T/30daysFrontEndBasic/tree/main/Day%202%20TODO%20App",
+    },
     
 
   ];
