@@ -29,7 +29,7 @@ const FormSchema = z.object({
     }),
 })
 
-export function TextareaForm() {
+const DirectMessage = () => {
   const form = useForm<z.infer<typeof FormSchema>>({
     resolver: zodResolver(FormSchema),
   })
@@ -47,12 +47,12 @@ export function TextareaForm() {
 
   return (
     <Form {...form}>
-      <form onSubmit={form.handleSubmit(onSubmit)} className="w-[25rem] space-6">
+      <form onSubmit={form.handleSubmit(onSubmit)} className="w-[25rem] space-y-5">
         <FormField
           control={form.control}
           name="bio"
           render={({ field }) => (
-            <FormItem>
+            <FormItem className=" space-y-3">
               
               <FormControl>
                 <Input type="email" placeholder="Email" />    
@@ -75,3 +75,5 @@ export function TextareaForm() {
     </Form>
   )
 }
+
+export default DirectMessage
