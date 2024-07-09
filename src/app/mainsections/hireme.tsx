@@ -57,6 +57,12 @@ const Hireme = () => {
         </Link>
 
       </div>
+
+      <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 space-x-0 md:space-x-4">
+        
+        
+        
+      </div>
     </div>
   );
 }
