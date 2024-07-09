@@ -16,6 +16,7 @@ import {
 } from "@/components/ui/form"
 import { Textarea } from "@/components/ui/textarea"
 import { toast } from "@/components/ui/use-toast"
+import { Input } from "@/components/ui/input"
 
 const FormSchema = z.object({
   bio: z
@@ -46,23 +47,25 @@ export function TextareaForm() {
 
   return (
     <Form {...form}>
-      <form onSubmit={form.handleSubmit(onSubmit)} className="w-2/3 space-y-6">
+      <form onSubmit={form.handleSubmit(onSubmit)} className="w-[25rem] space-6">
         <FormField
           control={form.control}
           name="bio"
           render={({ field }) => (
             <FormItem>
-              <FormLabel>Bio</FormLabel>
+              
               <FormControl>
+                <Input type="email" placeholder="Email" />    
+              </FormControl>
+
+              <FormControl>
+                
                 <Textarea
-                  placeholder="Tell us a little bit about yourself"
+                  placeholder="Tell us your message"
                   className="resize-none"
                   {...field}
                 />
               </FormControl>
-              <FormDescription>
-                You can <span>@mention</span> other users and organizations.
-              </FormDescription>
               <FormMessage />
             </FormItem>
           )}

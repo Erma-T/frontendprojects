@@ -4,6 +4,7 @@ import React from "react";
 
 import { TypewriterEffectSmooth } from "@/components/ui/typewriter-effect";
 import Link from "next/link";
+import { TextareaForm } from "./directmessage";
 
 const Hireme = () => {
   const words = [
@@ -25,7 +26,7 @@ const Hireme = () => {
     },
   ];
   return (
-    <div className="max-w-[60rem] flex flex-col items-center justify-center h-[20rem]  ">
+    <div className="max-w-[60rem] flex flex-col items-center justify-center min-h-[20rem] py-[3rem]  ">
       <p className="text-neutral-600 dark:text-neutral-200 text-xs sm:text-base  ">
         The key to win in programming is practice
       </p>
@@ -58,10 +59,10 @@ const Hireme = () => {
 
       </div>
 
-      <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 space-x-0 md:space-x-4">
+      <div className="flex flex-col md:flex-row py-[3rem]">
         
-        
-        
+        <TextareaForm />
+
       </div>
     </div>
   );
