@@ -44,8 +44,10 @@ const Hireme = () => {
         </Link>
 
         <Link
-            href={"http://ermiyas.com"}  
-            target="_blank"
+            href={"/pdf/ErmiyasTilahun.pdf"}  
+            locale={false} 
+            rel="noopener noreferrer" 
+            target="_blank" 
             >
 
             <button className="hover:bg-black hover:text-white w-40 h-10 rounded-xl bg-white text-black border border-black text-sm">
