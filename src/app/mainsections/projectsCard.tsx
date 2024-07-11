@@ -44,8 +44,8 @@ const ProjectsCard = ({
 
                         <BackgroundGradient className="flex flex-col h-full rounded-[22px] max-w-sm p-4 sm:px-4 sm:pb-4 sm:pt-3  bg-white dark:bg-zinc-900">
 
-                            <div className={`${styles.imgclass} max-w-[16rem] aspect-[7/4] bg-[url(/images/show1.webp)] rounded-xl`} >
-
+                            <div className={`${styles.imgclass} max-w-[16rem] max-h-[9rem] rounded-xl bg-cover bg-center`} >
+                                <Image alt={item.title} width={400} height={50} src={`/images/${item.imageurl}`} className="rounded-t-xl aspect-video"/> 
                             </div>
 
 

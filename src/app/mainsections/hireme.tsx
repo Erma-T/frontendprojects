@@ -26,11 +26,11 @@ const Hireme = () => {
     },
   ];
   return (
-    <div className="max-w-[60rem] flex flex-col items-center justify-center min-h-[20rem] py-[3rem]  ">
+    <div className="max-w-[60rem] border flex flex-col items-center justify-center min-h-[20rem] py-[4rem] bg-gradient-to-l from-[#ffffff]/80 via-[#ffffff] to-[#ffffff]/80 px-[4rem] rounded-3xl ">
       <p className="text-neutral-600 dark:text-neutral-200 text-xs sm:text-base  ">
         The key to win in programming is practice
       </p>
-      <TypewriterEffectSmooth words={words} />
+      <TypewriterEffectSmooth words={words} className="min-w-[60rem] flex flex-wrap justify-center justify-items-center"/>
       <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 space-x-0 md:space-x-4">
         
         <Link

@@ -11,7 +11,13 @@ export default function Home() {
       <About />
       <Projects />
 
-      <Hireme />
+      <div className="flex flex-wrap justify-center justify-items-center w-full bg-[url(/images/mk8.webp)] bg-cover bg-no-repeat">
+        <div className="flex flex-wrap justify-center justify-items-center w-full bg-gradient-to-l from-[#ffffff]/70 via-[#ffffff] to-[#ffffff]/70">
+
+          <Hireme />
+        
+        </div>
+      </div>
       
     </main>
   );
