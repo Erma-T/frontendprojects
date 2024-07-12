@@ -9,6 +9,7 @@ import { useState } from "react";
 import Link from "next/link";
 import { TextGen } from "./textgen";
 import PaginationComponent from "./paginationComponent";
+import { FaStar } from "react-icons/fa6";
 
 
 
@@ -18,6 +19,7 @@ const ProjectsCard = ({
     items: {
         imageurl: string;
         title: string;
+        level:string;
         description: string;
         livelink: string;
         repolink: string;
@@ -46,6 +48,7 @@ const ProjectsCard = ({
 
                             <div className={`${styles.imgclass} max-w-[16rem] max-h-[9rem] rounded-xl bg-cover bg-center`} >
                                 <Image alt={item.title} width={400} height={50} src={`/images/${item.imageurl}`} className="rounded-t-xl aspect-video"/> 
+                                <span className="flex justify-center justify-items-center absolute top-3 left-4 bg-slate-800/70 py-2 px-4 rounded-tl-2xl text-white font-medium">{item.level} &nbsp; &nbsp;  <FaStar size={20} className="pt-1"/> </span>
                             </div>
 
 
@@ -55,9 +58,7 @@ const ProjectsCard = ({
                                     
                                     <header className="mb-1">
                                         <h2 className="text-xl font-extrabold leading-snug">
-                                            <a className="text-slate-900 focus-visible:outline-none focus-visible:ring focus-visible:ring-indigo-300" href="#0">
-                                            {item.title}
-                                            </a>
+                                            {item.title}                                           
                                         </h2>
                                     </header>
                                     
