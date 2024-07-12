@@ -36,7 +36,7 @@ const ProjectsCard = ({
                 Projects
             </p>
 
-            <TextGen />
+            <TextGen/>
 
             <div className="max-w-xs mx-auto grid gap-6 lg:grid-cols-3 items-start lg:max-w-none">
 
