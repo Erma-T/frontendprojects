@@ -49,18 +49,18 @@ export const projectsData = [
 
     {
         imageurl: "show7.webp",
-        title: "Testimonial Slider",
-        description: "This is a Testimonial Slider built ",
-        livelink: "https://basicfrontend.netlify.app/day%205%20login%20and%20register%20page/",
-        repolink: "https://github.com/Erma-T/30daysFrontEndBasic/tree/main/Day%205%20Login%20and%20Register%20Page",
+        title: "POP UP Message",
+        description: "A Popup display  window like a success message when the button is clicked",
+        livelink: "https://basicfrontend.netlify.app/day%207%20popup/",
+        repolink: "https://github.com/Erma-T/30daysFrontEndBasic/tree/main/Day%207%20Popup",
     },
 
     {
         imageurl: "show8.webp",
         title: "Testimonial Slider",
-        description: "This is a Testimonial Slider built ",
-        livelink: "https://basicfrontend.netlify.app/day%205%20login%20and%20register%20page/",
-        repolink: "https://github.com/Erma-T/30daysFrontEndBasic/tree/main/Day%205%20Login%20and%20Register%20Page",
+        description: "A Testimonial Slider that displays different testimonials and slides automatically ",
+        livelink: "https://github.com/Erma-T/30daysFrontEndBasic/tree/main/Day%208%20Testimonial%20Slider",
+        repolink: "https://basicfrontend.netlify.app/day%208%20testimonial%20slider/",
     },
     
 
