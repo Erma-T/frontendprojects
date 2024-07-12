@@ -42,7 +42,23 @@ export const projectsData = [
     {
         imageurl: "show6.webp",
         title: "Image Gallery",
-        description: "An Image Gallery page that is used to displays",
+        description: "An Image Gallery page that is used to displays images in a bento grid way",
+        livelink: "https://basicfrontend.netlify.app/day%205%20login%20and%20register%20page/",
+        repolink: "https://github.com/Erma-T/30daysFrontEndBasic/tree/main/Day%205%20Login%20and%20Register%20Page",
+    },
+
+    {
+        imageurl: "show7.webp",
+        title: "Testimonial Slider",
+        description: "This is a Testimonial Slider built ",
+        livelink: "https://basicfrontend.netlify.app/day%205%20login%20and%20register%20page/",
+        repolink: "https://github.com/Erma-T/30daysFrontEndBasic/tree/main/Day%205%20Login%20and%20Register%20Page",
+    },
+
+    {
+        imageurl: "show8.webp",
+        title: "Testimonial Slider",
+        description: "This is a Testimonial Slider built ",
         livelink: "https://basicfrontend.netlify.app/day%205%20login%20and%20register%20page/",
         repolink: "https://github.com/Erma-T/30daysFrontEndBasic/tree/main/Day%205%20Login%20and%20Register%20Page",
     },
